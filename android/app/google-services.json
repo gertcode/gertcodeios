@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225534267057",
+    "project_id": "push-ios-prueba",
+    "storage_bucket": "push-ios-prueba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225534267057:android:014961cf3700e1a69b9c90",
+        "android_client_info": {
+          "package_name": "com.gertcode.iospush"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgaBZwbjsfkC3ue5nxJnCp66kAQ9K1MJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

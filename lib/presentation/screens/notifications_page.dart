@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:iospush/presentation/blocs/notifications/notifications_bloc.dart';
 
 
 class NotificationsPage extends StatefulWidget {
@@ -22,6 +24,9 @@ class _NotificationsPageState extends State<NotificationsPage> {
 
     return Scaffold(
       body: Center(child:Text("Página Principal Notificaciones")),
+      floatingActionButton: FloatingActionButton(onPressed: (){
+        context.read<NotificationsBloc>().requestPermission();
+      },child: Icon(Icons.settings),),
     );
   }
 
